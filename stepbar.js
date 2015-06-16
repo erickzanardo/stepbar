@@ -93,7 +93,7 @@
       
       layer2.font = 'bold ' + fontSize + 'px Arial';
       var metrics = layer2.measureText(items[i]);
-      layer2.fillStyle = color;
+      layer2.fillStyle = fontColor;
       layer2.fillText(items[i], thisX - (metrics.width / 2), thisY + fontSize + (stepBulletSize / 2));
     }
     layer1.drawImage(canvas2, 0, 0);
