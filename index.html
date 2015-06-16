@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="stepbar.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#e1').stepbar({
+          items: ['Item1', 'Item2', 'Item3'],
+          color: '#555',
+          fontColor: '#000',
+          selectedColor: '#0000ff',
+          selectedFontColor: '#fff',
+          current: 2 
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id='e1'>
+    </div>
+  </body>
